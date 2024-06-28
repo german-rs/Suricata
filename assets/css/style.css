@@ -1,0 +1,59 @@
+/* 
+    Nombre estudiante: Germán A. Riveros Sepúlveda.
+    Generación: 14.
+    Jornada: Vespertina.  
+*/
+
+/* Configuración general. */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Fin configuración general. */
+
+/* Color.  */
+:root{
+    --main-bg-color: #E83E8C;
+}
+
+.navbar{
+    background: var(--main-bg-color);
+}
+
+/* Logo NavBar. */
+
+.navbar-brand img{
+    height: 2.5rem;
+}
+
+h1{
+    color: #707070;
+    font-weight: 700;
+}
+
+
+#ahora-aceptamos{
+    background: #17A2B8;
+}
+
+footer{
+    background: var(--main-bg-color);
+}
+
+footer img{
+    height: 6.5rem;
+}
+
+/* Enlaces. */
+a{
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+#productos .card{
+    margin-left: 35px;
+}
+    
+}
